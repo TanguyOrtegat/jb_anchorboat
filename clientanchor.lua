@@ -15,6 +15,7 @@ Citizen.CreateThread(function()
 			else
 				SetBoatAnchor(boat, false)
 				Notify("Boat is not anchored")
+				boat = nil
 			end
 			anchored = not anchored
 		end
